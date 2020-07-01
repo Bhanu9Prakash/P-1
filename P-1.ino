@@ -6,7 +6,8 @@ void setup() {
 
 void loop() {
   digitalWrite(ledPin,HIGH);
-  Serial.print("LED is ON");
+  Serial.print("This line is changed in Desktop");
+  Serial.print("LED is ON!");
   delay(1000);
   digitalWrite(ledPin,HIGH);
   Serial.print("LED is OFF");
